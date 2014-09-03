@@ -1,6 +1,6 @@
 jQuery.sap.require("sap.ui.demo.myFiori.util.Formatter");
 
-sap.ui.controller("sap.ui.demo.myFiori.view.Table", {
+sap.ui.controller("sap.ui.demo.myFiori.tableview.Table", {
 
 	onInit: function () {
 		// set explored app's demo model on this sample
