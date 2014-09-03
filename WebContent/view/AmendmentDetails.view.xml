@@ -3,7 +3,7 @@
 	xmlns:html="http://www.w3.org/1999/xhtml">
 	<Page title="WorkFlow" showNavButton="true" navButtonPress="handleNavButtonPress">
 
-		<content>
+		<content><!--  -->
 
 			<Panel>
 				<suite:ProcessFlow id="processflow1" zoomLevel="Two"
