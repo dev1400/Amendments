@@ -2,6 +2,41 @@ jQuery.sap.declare("sap.ui.demo.myFiori.Component");
 
 sap.ui.core.UIComponent.extend("sap.ui.demo.myFiori.Component", {
 
+	metadata : {
+		publicMethods : [
+			"getTable"
+		],
+		dependencies : {
+			libs : [
+				"sap.m",
+				"sap.ui.layout"
+			]
+		},
+		config : {
+			sample : {
+				files : [
+					"Table.view.xml",
+					"Table.controller.js",
+					"Formatter.js"
+				]
+			}
+		}
+	},
+	
+	getTable : function () {
+		return this._rootView.getContent()[0];
+	}
+});
+
+sap.ui.demo.myFiori.Component.prototype.createContent = function () {
+	this._rootView = sap.ui.xmlview({ viewName : "sap.ui.demo.myFiori.view.Table" });
+	return this._rootView;
+};
+
+/*jQuery.sap.declare("sap.ui.demo.myFiori.Component");
+
+sap.ui.core.UIComponent.extend("sap.ui.demo.myFiori.Component", {
+
 	createContent : function() {
 
 		// create root view
@@ -18,8 +53,8 @@ sap.ui.core.UIComponent.extend("sap.ui.demo.myFiori.Component", {
 		});
 		oView.setModel(i18nModel, "i18n");
 		
-		/*var oModel = new sap.ui.model.odata.ODataModel("proxy/http/services.odata.org/Northwind/Northwind.svc/",true);
-		oView.setModel(oModel);*/
+		var oModel = new sap.ui.model.odata.ODataModel("proxy/http/services.odata.org/Northwind/Northwind.svc/",true);
+		oView.setModel(oModel);
 		//sap.ui.getCore().setModel(oModel);
 		
 
@@ -35,4 +70,4 @@ sap.ui.core.UIComponent.extend("sap.ui.demo.myFiori.Component", {
 		// done
 		return oView;
 	}
-});
+});*/
