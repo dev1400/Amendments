@@ -33,8 +33,7 @@ sap.ui.controller("sap.ui.demo.myFiori.tableview.Table", {
 	handleWorkFlowPress : function (evt) {
 		/*var context = evt.getSource().getBindingContext();
 		this.nav.to("AmendmentDetails", context);*/
-		/* var oShell = sap.ui.getCore().byId("sap.ui.demo.myFiori");  
-		 oShell.setContent(view);*/
+		
 	}
 
 });
