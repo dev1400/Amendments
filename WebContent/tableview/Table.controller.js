@@ -9,7 +9,7 @@ sap.ui.controller("sap.ui.demo.myFiori.tableview.Table", {
 	},
 	onExit : function() {
 		if (this._oPopover) {
-			this._oPopover.destroy();
+			this._oPopover.destroy();			
 		}
 	},
 
