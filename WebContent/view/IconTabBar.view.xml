@@ -13,7 +13,7 @@
 				iconColor="Positive"
 				design="Horizontal"
 				count="{/ProductCollectionStats/Counts/Weight/Ok} of {/ProductCollectionStats/Counts/Total}"
-				text="Confirm Ok"
+				text="All"
 				key="Ok" />
 			<IconTabSeparator icon="sap-icon://open-command-field" />
 			<IconTabFilter
@@ -21,7 +21,7 @@
 				iconColor="Critical"
 				design="Horizontal"
 				count="{/ProductCollectionStats/Counts/Weight/Heavy} of {/ProductCollectionStats/Counts/Total}"
-				text="Check Heavys"
+				text="Created"
 				key="Heavy" />
 			<IconTabSeparator icon="sap-icon://open-command-field" />
 			<IconTabFilter
@@ -29,19 +29,16 @@
 				iconColor="Negative"
 				design="Horizontal"
 				count="{/ProductCollectionStats/Counts/Weight/Overweight} of {/ProductCollectionStats/Counts/Total}"
-				text="Claim Overweights"
+				text="Released"
 				key="Overweight" />
+			<IconTabFilter
+				icon="sap-icon://begin"
+				iconColor="Positive"
+				design="Horizontal"
+				count="{/ProductCollectionStats/Counts/Weight/Ok} of {/ProductCollectionStats/Counts/Total}"
+				text="Executed"
+				key="Ok" />
 		</items>
 	</IconTabBar>
 </mvc:View>
 
-
-<!-- <mvc:View controllerName="sap.m.sample.IconTabBar.IconTabBar" xmlns:mvc="sap.ui.core.mvc" 
-	xmlns="sap.m"> <IconTabBar id="idIconTabBar" select="handleIconTabBarSelect"> 
-	<items> <IconTabFilter showAll="true" count="{/ProductCollectionStats/Counts/Total}" 
-	text="Products" keys="All" /> <IconTabSeparator /> <IconTabFilter icon="sap-icon://begin" 
-	iconColor="Positive" count="{/ProductCollectionStats/Counts/Weight/Ok}" text="Ok" 
-	key="Ok" /> <IconTabFilter icon="sap-icon://compare" iconColor="Critical" 
-	count="{/ProductCollectionStats/Counts/Weight/Heavy}" text="Heavy" key="Heavy" 
-	/> <IconTabFilter icon="sap-icon://inventory" iconColor="Negative" count="{/ProductCollectionStats/Counts/Weight/Overweight}" 
-	text="Overweight" key="Overweight" /> </items> </IconTabBar> </mvc:View> -->

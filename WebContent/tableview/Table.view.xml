@@ -1,6 +1,7 @@
 <mvc:View
 	controllerName="sap.ui.demo.myFiori.tableview.Table"
 	xmlns:l="sap.ui.layout"
+	xmlns:c="sap.ui.core"
 	xmlns:mvc="sap.ui.core.mvc"
 	xmlns="sap.m">
 	<Table id="idProductsTable"
@@ -13,34 +14,34 @@
 		}">
 		<headerToolbar>
 			<Toolbar>
-				<Label text="Products"></Label>
+				<Label text="{i18n>Heading}"></Label>
 			</Toolbar>
 		</headerToolbar>
 		<columns>
 			<Column
 				width="12em">
-				<Text text="Product" />
+				<Text text="{i18n>TableHeading1}" />
 			</Column>
 			<Column
 				minScreenWidth="Tablet"
 				demandPopin="true">
-				<Text text="Supplier" />
+				<Text text="{i18n>TableHeading2}" />
 			</Column>
 			<Column
 				minScreenWidth="Tablet"
 				demandPopin="true"
 				hAlign="Right">
-				<Text text="Dimensions" />
+				<Text text="{i18n>TableHeading3}" />
 			</Column>
 			<Column
 				minScreenWidth="Tablet"
 				demandPopin="true"
 				hAlign="Center">
-				<Text text="Weight" />
+				<Text text="{i18n>TableHeading4}" />
 			</Column>
 			<Column
 				hAlign="Right">
-				<Text text="Price" />
+				<Text text="{i18n>TableHeading5}" />
 			</Column>
 		</columns>
 		<items>
@@ -61,9 +62,11 @@
 							path: 'WeightMeasure',
 							formatter: 'sap.ui.demo.myFiori.Formatter.weightState'
 						}" />
-					<ObjectNumber
+					<!-- <ObjectNumber
 					number="{Price}"
-					unit="{CurrencyCode}" />
+					unit="{CurrencyCode}" /> -->
+					
+					<c:Icon src="sap-icon://workflow-tasks"/>
 				</cells>
 			</ColumnListItem>
 		</items>
