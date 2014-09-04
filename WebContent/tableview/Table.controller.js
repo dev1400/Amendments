@@ -14,14 +14,18 @@ sap.ui.controller("sap.ui.demo.myFiori.tableview.Table", {
 	},
 
 	handlePopoverPress : function(oEvent) {
+		
+		var local = oEvent.getParameters();
+		var lastChar = local.id;
+		lastChar = lastChar.substr(lastChar.length - 1);	
 
 		// create popover
-		if (!this._oPopover) {
+		//if (!this._oPopover) {
 			this._oPopover = sap.ui.xmlfragment("sap.ui.demo.myFiori.tableview.Popover",
 					this);
 			this.getView().addDependent(this._oPopover);
-			this._oPopover.bindElement("/ProductCollection/2");
-		}
+			this._oPopover.bindElement("/ProductCollection/"+lastChar);
+			//}
 
 		// delay because addDependent will do a async rerendering and the
 		// actionSheet will immediately close without it.
