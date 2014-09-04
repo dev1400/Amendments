@@ -17,7 +17,9 @@ sap.ui.core.UIComponent.extend("sap.ui.demo.myFiori.Component", {
 			sample : {
 				files : [
 					"IconTabBar.view.xml",
-					"IconTabBar.controller.js"
+					"IconTabBar.controller.js",
+					"AmendmentDetails.view.xml",
+					"AmendmentDetails.controller.js"
 				]
 			}
 		}

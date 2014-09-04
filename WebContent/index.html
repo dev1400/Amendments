@@ -20,9 +20,14 @@
 </script>
 
 <script>
-	new sap.ui.core.ComponentContainer({
+new sap.m.Shell({
+	app : new sap.ui.core.ComponentContainer({
 		name : "sap.ui.demo.myFiori"
-	}).placeAt("content");
+	})
+}).placeAt("content");
+	/* new sap.ui.core.ComponentContainer({
+		name : "sap.ui.demo.myFiori"
+	}).placeAt("content"); */
 </script>
 
 </head>

@@ -60,9 +60,9 @@
 						text="{i18n>Customeron} {Date} {i18n>Customerfrom} {System} "
 						class="sapMTableContentMargin" />
 						
-				    <c:Icon src="sap-icon://popup-window"/>
+				    <c:Icon src="sap-icon://popup-window" press="handlePopoverPress"/>
 					
-					<c:Icon src="sap-icon://workflow-tasks"/>
+					<c:Icon src="sap-icon://workflow-tasks" press="handleWorkFlowPress"/>
 				</cells>
 			</ColumnListItem>
 		</items>
