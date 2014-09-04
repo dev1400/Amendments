@@ -51,8 +51,10 @@
 						title="{Name}"
 						text="{ProductId}"
 						class="sapMTableContentMargin" />
-					<Text
-						text="{SupplierName}" />
+					<ObjectIdentifier
+						title="{Description}"
+						text="{SupplierName}"
+						class="sapMTableContentMargin" />
 					<Text
 						text="{Width} x {Depth} x {Height} {DimUnit}" />
 					<ObjectNumber
