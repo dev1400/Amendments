@@ -1,11 +1,11 @@
 {
 	"ProductCollection": [
 		{
-			"ProductId": "AmendmentID Type 1",
-			"Name": "AmendmentID 1",
-			"Category": "Projector",
-			"SupplierName": "Deal ID 1",
-			"Description": "Deal description 1",
+			"AmendmentType": "AmendmentID Type 1",
+			"AmendmentId": "AmendmentID 1",
+			"CustomerName": "Customer 1",
+			"DealId": "Deal ID 1",
+			"DealDescription": "Deal description 1",
 			"WeightMeasure": 1467,
 			"WeightUnit": "g",
 			"Price": 856.49,
@@ -15,15 +15,15 @@
 			"Width": 51,
 			"Depth": 42,
 			"Height": 18,
-			"DimUnit": "cm",
-			"ProductPicUrl": "test-resources/sap/ui/demokit/explored/img/large_HT-6100.jpg"
+			"System": "CMC",
+			"Date": "13/11/2014"
 		},
 		{
-			"ProductId": "AmendmentID Type 2",
-			"Name": "AmendmentID 2",
-			"Category": "Graphics Card",
-			"SupplierName": "Deal ID 2",
-			"Description": "Deal description 2",
+			"AmendmentType": "AmendmentID Type 2",
+			"AmendmentId": "AmendmentID 2",
+			"CustomerName": "Customer 2",
+			"DealId": "Deal ID 2",
+			"DealDescription": "Deal description 2",
 			"WeightMeasure": 321,
 			"WeightUnit": "g",
 			"Price": 81.7,
@@ -33,15 +33,15 @@
 			"Width": 34,
 			"Depth": 14,
 			"Height": 2,
-			"DimUnit": "cm",
-			"ProductPicUrl": "test-resources/sap/ui/demokit/explored/img/HT-1071.jpg"
+			"System": "CMC",
+			"Date": "12/11/2014"
 		},
 		{
-			"ProductId": "AmendmentID Type 3",
-			"Name": "AmendmentID 3",
-			"Category": "Graphics Card",
-			"SupplierName": "Deal ID 3",
-			"Description": "Deal description 3",
+			"AmendmentType": "AmendmentID Type 3",
+			"AmendmentId": "AmendmentID 3",
+			"CustomerName": "Customer 3",
+			"DealId": "Deal ID 3",
+			"DealDescription": "Deal description 3",
 			"WeightMeasure": 588,
 			"WeightUnit": "g",
 			"Price": 219,
@@ -51,15 +51,15 @@
 			"Width": 34,
 			"Depth": 14,
 			"Height": 2,
-			"DimUnit": "cm",
-			"ProductPicUrl": "test-resources/sap/ui/demokit/explored/img/HT-1072.jpg"
+			"System": "CMC",
+			"Date": "12/12/2014"
 		},
 		{
-			"ProductId": "AmendmentID Type 4",
-			"Name": "AmendmentID 4",
-			"Category": "Accessory",
-			"SupplierName": "Deal ID 4",
-			"Description": "Deal description 4",
+			"AmendmentType": "AmendmentID Type 4",
+			"AmendmentId": "AmendmentID 4",
+			"CustomerName": "Customer 4",
+			"DealId": "Deal ID 4",
+			"DealDescription": "Deal description 4",
 			"WeightMeasure": 700,
 			"WeightUnit": "g",
 			"Price": 59,
@@ -69,15 +69,15 @@
 			"Width": 18,
 			"Depth": 19,
 			"Height": 21,
-			"DimUnit": "cm",
-			"ProductPicUrl": "test-resources/sap/ui/demokit/explored/img/HT-1112.jpg"
+			"System": "CMC",
+			"Date": "11/11/2014"
 		},
 		{
-			"ProductId": "AmendmentID Type 5",
-			"Name": "AmendmentID 5",
-			"Category": "Accessory",
-			"SupplierName": "Deal ID 5",
-			"Description": "Deal description 5",
+			"AmendmentType": "AmendmentID Type 5",
+			"AmendmentId": "AmendmentID 5",
+			"CustomerName": "Customer 5",
+			"DealId": "Deal ID 5",
+			"DealDescription": "Deal description 5",
 			"WeightMeasure": 40,
 			"WeightUnit": "g",
 			"Price": 13.49,
@@ -87,15 +87,15 @@
 			"Width": 11,
 			"Depth": 11,
 			"Height": 3,
-			"DimUnit": "cm",
-			"ProductPicUrl": "test-resources/sap/ui/demokit/explored/img/HT-1111.jpg"
+			"System": "CMC",
+			"Date": "10/10/2014"
 		},
 		{
-			"ProductId": "AmendmentID Type 6",
-			"Name": "AmendmentID 6",
-			"Category": "Accessory",
-			"SupplierName": "Deal ID 6",
-			"Description": "Deal description 6",
+			"AmendmentType": "AmendmentID Type 6",
+			"AmendmentId": "AmendmentID 6",
+			"CustomerName": "Customer 6",
+			"DealId": "Deal ID 6",
+			"DealDescription": "Deal description 6",
 			"WeightMeasure": 1289,
 			"WeightUnit": "g",
 			"Price": 78.99,
@@ -105,15 +105,15 @@
 			"Width": 53,
 			"Depth": 34,
 			"Height": 7,
-			"DimUnit": "cm",
-			"ProductPicUrl": "test-resources/sap/ui/demokit/explored/img/HT-1114.jpg"
+			"System": "CMC",
+			"Date": "09/09/2014"
 		},
 		{
-			"ProductId": "AmendmentID Type 7",
-			"Name": "AmendmentID 7",
-			"Category": "Accessory",
-			"SupplierName": "Deal ID 7",
-			"Description": "Deal description 7",
+			"AmendmentType": "AmendmentID Type 7",
+			"AmendmentId": "AmendmentID 7",
+			"CustomerName": "Customer 7",
+			"DealId": "Deal ID 7",
+			"DealDescription": "Deal description 7",
 			"WeightMeasure": 11,
 			"WeightUnit": "g",
 			"Price": 17.19,
@@ -123,15 +123,15 @@
 			"Width": 6,
 			"Depth": 2,
 			"Height": 0.5,
-			"DimUnit": "cm",
-			"ProductPicUrl": "test-resources/sap/ui/demokit/explored/img/HT-6120.jpg"
+			"System": "CMC",
+			"Date": "08/08/2014"
 		},
 		{
-			"ProductId": "AmendmentID Type 8",
-			"Name": "AmendmentID 8",
-			"Category": "Printer",
-			"SupplierName": "Deal ID 8",
-			"Description": "Deal description 8",
+			"AmendmentType": "AmendmentID Type 8",
+			"AmendmentId": "AmendmentID 8",
+			"CustomerName": "Customer 8",
+			"DealId": "Deal ID 8",
+			"DealDescription": "Deal description 8",
 			"WeightMeasure": 100,
 			"WeightUnit": "g",
 			"Price": 117.19,
@@ -141,15 +141,15 @@
 			"Width": 87,
 			"Depth": 45,
 			"Height": 39,
-			"DimUnit": "cm",
-			"ProductPicUrl": "test-resources/sap/ui/demokit/explored/img/HT-1052.jpg"
+			"System": "CMC",
+			"Date": "07/07/2014"
 		},
 		{
-			"ProductId": "AmendmentID Type 9",
-			"Name": "AmendmentID 9",
-			"Category": "Printer",
-			"SupplierName": "Deal ID 9",
-			"Description": "Deal description 9",
+			"AmendmentType": "AmendmentID Type 9",
+			"AmendmentId": "AmendmentID 9",
+			"CustomerName": "Customer 9",
+			"DealId": "Deal ID 9",
+			"DealDescription": "Deal description 9",
 			"WeightMeasure": 2134,
 			"WeightUnit": "g",
 			"Price": 39.99,
@@ -159,15 +159,15 @@
 			"Width": 42,
 			"Depth": 29,
 			"Height": 31,
-			"DimUnit": "cm",
-			"ProductPicUrl": "test-resources/sap/ui/demokit/explored/img/HT-1040.jpg"
+			"System": "CMC",
+			"Date": "06/06/2014"
 		},
 		{
-			"ProductId": "AmendmentID Type 10",
-			"Name": "AmendmentID 10",
-			"Category": "Monitor",
-			"SupplierName": "Deal ID 10",
-			"Description": "Deal description 10",
+			"AmendmentType": "AmendmentID Type 10",
+			"AmendmentId": "AmendmentID 10",
+			"CustomerName": "Customer 10",
+			"DealId": "Deal ID 10",
+			"DealDescription": "Deal description 10",
 			"WeightMeasure": 1401,
 			"WeightUnit": "g",
 			"Price": 339,
@@ -177,15 +177,15 @@
 			"Width": 88,
 			"Depth": 13,
 			"Height": 49,
-			"DimUnit": "cm",
-			"ProductPicUrl": "test-resources/sap/ui/demokit/explored/img/HT-1030.jpg"
+			"System": "CMC",
+			"Date": "05/05/2014"
 		},
 		{
-			"ProductId": "AmendmentID Type 11",
-			"Name": "AmendmentID 11",
-			"Category": "Monitor",
-			"SupplierName": "Deal ID 11",
-			"Description": "Deal description 11",
+			"AmendmentType": "AmendmentID Type 11",
+			"AmendmentId": "AmendmentID 11",
+			"CustomerName": "Customer 11",
+			"DealId": "Deal ID 11",
+			"DealDescription": "Deal description 11",
 			"WeightMeasure": 1800,
 			"WeightUnit": "g",
 			"Price": 639,
@@ -195,15 +195,15 @@
 			"Width": 102,
 			"Depth": 13,
 			"Height": 54,
-			"DimUnit": "cm",
-			"ProductPicUrl": "test-resources/sap/ui/demokit/explored/img/HT-1032.jpg"
+			"System": "CMC",
+			"Date": "04/04/2014"
 		},
 		{
-			"ProductId": "AmendmentID Type 12",
-			"Name": "AmendmentID 12",
-			"Category": "Monitor",
-			"SupplierName": "Deal ID 12",
-			"Description": "Deal description 12",
+			"AmendmentType": "AmendmentID Type 12",
+			"AmendmentId": "AmendmentID 12",
+			"CustomerName": "Customer 12",
+			"DealId": "Deal ID 12",
+			"DealDescription": "Deal description 12",
 			"WeightMeasure": 2100,
 			"WeightUnit": "g",
 			"Price": 1239,
@@ -213,15 +213,15 @@
 			"Width": 112,
 			"Depth": 13,
 			"Height": 60,
-			"DimUnit": "cm",
-			"ProductPicUrl": "test-resources/sap/ui/demokit/explored/img/HT-1138.jpg"
+			"System": "CMC",
+			"Date": "03/03/2014"
 		},
 		{
-			"ProductId": "AmendmentID Type 13",
-			"Name": "AmendmentID 13",
-			"Category": "Laptop",
-	    	"SupplierName": "Deal ID 13",
-			"Description": "Deal description 13",
+			"AmendmentType": "AmendmentID Type 13",
+			"AmendmentId": "AmendmentID 13",
+			"CustomerName": "Customer 13",
+	    	"DealId": "Deal ID 13",
+			"DealDescription": "Deal description 13",
 			"WeightMeasure": 1190,
 			"WeightUnit": "g",
 			"Price": 939,
@@ -231,15 +231,15 @@
 			"Width": 64,
 			"Depth": 34,
 			"Height": 4,
-			"DimUnit": "cm",
-			"ProductPicUrl": "test-resources/sap/ui/demokit/explored/img/HT-1010.jpg"
+			"System": "CMC",
+			"Date": "02/02/2014"
 		},
 		{
-			"ProductId": "AmendmentID Type 14",
-			"Name": "AmendmentID 14",
-			"Category": "Keyboard",
-			"SupplierName": "Deal ID 14",
-			"Description": "Deal description 14",
+			"AmendmentType": "AmendmentID Type 14",
+			"AmendmentId": "AmendmentID 14",
+			"CustomerName": "Customer 14",
+			"DealId": "Deal ID 14",
+			"DealDescription": "Deal description 14",
 			"WeightMeasure": 651,
 			"WeightUnit": "g",
 			"Price": 89,
@@ -249,8 +249,8 @@
 			"Width": 53,
 			"Depth": 24,
 			"Height": 6,
-			"DimUnit": "cm",
-			"ProductPicUrl": "test-resources/sap/ui/demokit/explored/img/HT-1063.jpg"
+			"System": "CMC",
+			"Date": "01/01/2014"
 		}
 	],
 	"ProductCollectionStats": {
@@ -263,7 +263,7 @@
 			}
 		},
 		"Groups": {
-			"Category": {
+			"CustomerName": {
 				"Projector": 1,
 				"Graphics Card": 2,
 				"Accessory": 4,
@@ -272,7 +272,7 @@
 				"Laptop": 1,
 				"Keyboard": 1
 			},
-			"SupplierName": {
+			"DealId": {
 				"Titanium": 3,
 				"Technocom": 3,
 				"Red Point Stores": 5,
@@ -281,7 +281,7 @@
 		},
 		"Filters": [
 			{
-				"type": "Category",
+				"type": "CustomerName",
 				"values": [
 					{
 						"text": "Projector",
@@ -314,7 +314,7 @@
 				]
 			},
 			{
-				"type": "SupplierName",
+				"type": "DealId",
 				"values": [
 					{
 						"text": "Titanium",

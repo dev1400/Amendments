@@ -48,25 +48,19 @@
 			<ColumnListItem>
 				<cells>
 					<ObjectIdentifier
-						title="{Name}"
-						text="{ProductId}"
+						title="{AmendmentType}"
+						text="{AmendmentId}"
 						class="sapMTableContentMargin" />
 					<ObjectIdentifier
-						title="{Description}"
-						text="{SupplierName}"
+						title="{DealDescription}"
+						text="{DealId}"
 						class="sapMTableContentMargin" />
-					<Text
-						text="{Width} x {Depth} x {Height} {DimUnit}" />
-					<ObjectNumber
-						number="{WeightMeasure}"
-						unit="{WeightUnit}"
-						state="{
-							path: 'WeightMeasure',
-							formatter: 'sap.ui.demo.myFiori.Formatter.weightState'
-						}" />
-					<!-- <ObjectNumber
-					number="{Price}"
-					unit="{CurrencyCode}" /> -->
+					<ObjectIdentifier
+						title="{CustomerName}"
+						text="{i18n>Customeron} {Date} {i18n>Customerfrom} {System} "
+						class="sapMTableContentMargin" />
+						
+				    <c:Icon src="sap-icon://popup-window"/>
 					
 					<c:Icon src="sap-icon://workflow-tasks"/>
 				</cells>

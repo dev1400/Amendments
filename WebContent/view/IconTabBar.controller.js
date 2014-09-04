@@ -1,5 +1,12 @@
 sap.ui.controller("sap.ui.demo.myFiori.view.IconTabBar", {
 	onInit: function () {
+		
+		// set i18n model
+		var i18nModel = new sap.ui.model.resource.ResourceModel({
+			bundleUrl : "i18n/messageBundle.properties"
+		});
+		this.getView().setModel(i18nModel, "i18n");
+
 
 	    // set explored app's demo model on this sample
 	    var oModel = new sap.ui.model.json.JSONModel("model/products.json");
