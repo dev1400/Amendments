@@ -31,6 +31,7 @@
 				count="{/ProductCollectionStats/Counts/Weight/Overweight} of {/ProductCollectionStats/Counts/Total}"
 				text="Released"
 				key="Overweight" />
+			<IconTabSeparator icon="sap-icon://open-command-field" />
 			<IconTabFilter
 				icon="sap-icon://begin"
 				iconColor="Positive"
