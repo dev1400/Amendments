@@ -2,56 +2,28 @@ jQuery.sap.declare("sap.ui.demo.myFiori.Component");
 
 sap.ui.core.UIComponent.extend("sap.ui.demo.myFiori.Component", {
 	
-	metadata : {
-		rootView : "sap.ui.demo.myFiori.view.IconTabBar",
-		dependencies : {
-			libs : [
-				"sap.m",
-				"sap.ui.layout"
-			],
-			components : [
-				"sap.ui.demo.myFiori"
-			]
-		},
-		config : {
-			sample : {
-				files : [
-					"App.view.js",
-								
-				]
-			}
-		}
-	}
+	createContent : function() {
 
-	/*metadata : {
-		publicMethods : [
-			"getTable"
-		],
-		dependencies : {
-			libs : [
-				"sap.m",
-				"sap.ui.layout"
-			]
-		},
-		config : {
-			sample : {
-				files : [
-					"Table.view.xml",
-					"Table.controller.js",
-					"Formatter.js"
-				]
-			}
-		}
-	},
+		// create root view
+		var oView = sap.ui.view({
+			id : "app",
+			viewName : "sap.ui.demo.myFiori.view.App",
+			type : "JS",
+			viewData : { component : this }
+		});
+
+		// set i18n model
+		var i18nModel = new sap.ui.model.resource.ResourceModel({
+			bundleUrl : "i18n/messageBundle.properties"
+		});
+		oView.setModel(i18nModel, "i18n");
+		
+		
+
+		// done
+		return oView;
 	
-	getTable : function () {
-		return this._rootView.getContent()[0];
-	}*/
+	}
+	
 });
 
-/*sap.ui.demo.myFiori.Component.prototype.createContent = function () {
-	this._rootView = sap.ui.xmlview({ viewName : "sap.ui.demo.myFiori.view.IconTabBar" });
-	return this._rootView;
-};
-
-*/

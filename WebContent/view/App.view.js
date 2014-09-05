@@ -18,7 +18,7 @@ sap.ui.jsview("sap.ui.demo.myFiori.view.App", {
 		this.app.addPage(master, true);
 		
 		// load the detail page
-		var detail = sap.ui.xmlview("Detail", "sap.ui.demo.myFiori.view.AmendmentDetails");
+		var detail = sap.ui.xmlview("AmendmentDetails", "sap.ui.demo.myFiori.view.AmendmentDetails");
 		detail.getController().nav = this.getController();
 		this.app.addPage(detail, false);
 		
