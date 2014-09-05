@@ -37,8 +37,7 @@ sap.ui.controller("sap.ui.demo.myFiori.view.IconTabBar", {
 	},
 	handleLineItemPress : function(evt) {
 		console.log("This will navigate to details page");
-		/*var context = evt.getSource().getBindingContext();
-		this.nav.to("AmendmentDetails", context);*/
+		
 	},
 	handleWorkFlowPress : function(evt) {
 		var context = evt.getSource().getBindingContext();
