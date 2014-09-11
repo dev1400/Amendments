@@ -1,367 +1,158 @@
 {
-	"AmendmentsCollection": [
-		{
-			"AmendmentType": "AmendmentID Type 1",
-			"AmendmentId": "AmendmentID 1",
-			"CustomerName": "Customer 1",
-			"DealId": "Deal ID 1",
-			"DealDescription": "Deal description 1",
-			"AmendmentDescription": "AmendmentDescription 1",
-			"WeightMeasure": 1467,
-			"WeightUnit": "g",
-			"Price": 856.49,
-			"CurrencyCode": "EUR",
-			"Quantity": 3,
-			"UoM": "PC",
-			"Width": 51,
-			"Depth": 42,
-			"AmendmentStatus": "Created",
-			"Height": 18,
-			"System": "CMC",
-			"Date": "13/11/2014"
-		},
-		{
-			"AmendmentType": "AmendmentID Type 2",
-			"AmendmentId": "AmendmentID 2",
-			"CustomerName": "Customer 2",
-			"DealId": "Deal ID 2",
-			"DealDescription": "Deal description 2",
-			"AmendmentDescription": "AmendmentDescription 2",
-			"WeightMeasure": 321,
-			"WeightUnit": "g",
-			"Price": 81.7,
-			"CurrencyCode": "EUR",
-			"Quantity": 10,
-			"UoM": "PC",
-			"Width": 34,
-			"Depth": 14,
-			"AmendmentStatus": "Executed",
-			"Height": 2,
-			"System": "CMC",
-			"Date": "12/11/2014"
-		},
-		{
-			"AmendmentType": "AmendmentID Type 3",
-			"AmendmentId": "AmendmentID 3",
-			"CustomerName": "Customer 3",
-			"DealId": "Deal ID 3",
-			"DealDescription": "Deal description 3",
-			"AmendmentDescription": "AmendmentDescription 3",
-			"WeightMeasure": 588,
-			"WeightUnit": "g",
-			"Price": 219,
-			"CurrencyCode": "EUR",
-			"Quantity": 25,
-			"UoM": "PC",
-			"Width": 34,
-			"Depth": 14,
-			"AmendmentStatus": "Executed",
-			"Height": 2,
-			"System": "CMC",
-			"Date": "12/12/2014"
-		},
-		{
-			"AmendmentType": "AmendmentID Type 4",
-			"AmendmentId": "AmendmentID 4",
-			"CustomerName": "Customer 4",
-			"DealId": "Deal ID 4",
-			"DealDescription": "Deal description 4",
-			"AmendmentDescription": "AmendmentDescription 4",
-			"WeightMeasure": 700,
-			"WeightUnit": "g",
-			"Price": 59,
-			"CurrencyCode": "EUR",
-			"Quantity": 22,
-			"UoM": "PC",
-			"Width": 18,
-			"Depth": 19,
-			"AmendmentStatus": "Released",
-			"Height": 21,
-			"System": "CMC",
-			"Date": "11/11/2014"
-		},
-		{
-			"AmendmentType": "AmendmentID Type 5",
-			"AmendmentId": "AmendmentID 5",
-			"CustomerName": "Customer 5",
-			"DealId": "Deal ID 5",
-			"DealDescription": "Deal description 5",
-			"AmendmentDescription": "AmendmentDescription 5",
-			"WeightMeasure": 40,
-			"WeightUnit": "g",
-			"Price": 13.49,
-			"CurrencyCode": "EUR",
-			"Quantity": 30,
-			"UoM": "PC",
-			"Width": 11,
-			"Depth": 11,
-			"AmendmentStatus": "Created",
-			"Height": 3,
-			"System": "CMC",
-			"Date": "10/10/2014"
-		},
-		{
-			"AmendmentType": "AmendmentID Type 6",
-			"AmendmentId": "AmendmentID 6",
-			"CustomerName": "Customer 6",
-			"DealId": "Deal ID 6",
-			"DealDescription": "Deal description 6",
-			"AmendmentDescription": "AmendmentDescription 6",
-			"WeightMeasure": 1289,
-			"WeightUnit": "g",
-			"Price": 78.99,
-			"CurrencyCode": "EUR",
-			"Quantity": 15,
-			"UoM": "PC",
-			"Width": 53,
-			"Depth": 34,
-			"AmendmentStatus": "Released",
-			"Height": 7,
-			"System": "CMC",
-			"Date": "09/09/2014"
-		},
-		{
-			"AmendmentType": "AmendmentID Type 7",
-			"AmendmentId": "AmendmentID 7",
-			"CustomerName": "Customer 7",
-			"DealId": "Deal ID 7",
-			"DealDescription": "Deal description 7",
-			"AmendmentDescription": "AmendmentDescription 7",
-			"WeightMeasure": 11,
-			"WeightUnit": "g",
-			"Price": 17.19,
-			"CurrencyCode": "EUR",
-			"Quantity": 45,
-			"UoM": "PC",
-			"Width": 6,
-			"Depth": 2,
-			"AmendmentStatus": "Created",
-			"Height": 0.5,
-			"System": "CMC",
-			"Date": "08/08/2014"
-		},
-		{
-			"AmendmentType": "AmendmentID Type 8",
-			"AmendmentId": "AmendmentID 8",
-			"CustomerName": "Customer 8",
-			"DealId": "Deal ID 8",
-			"DealDescription": "Deal description 8",
-			"AmendmentDescription": "AmendmentDescription 8",
-			"WeightMeasure": 100,
-			"WeightUnit": "g",
-			"Price": 117.19,
-			"CurrencyCode": "EUR",
-			"Quantity": 10,
-			"UoM": "PC",
-			"Width": 87,
-			"Depth": 45,
-			"AmendmentStatus": "Executed",
-			"Height": 39,
-			"System": "CMC",
-			"Date": "07/07/2014"
-		},
-		{
-			"AmendmentType": "AmendmentID Type 9",
-			"AmendmentId": "AmendmentID 9",
-			"CustomerName": "Customer 9",
-			"DealId": "Deal ID 9",
-			"DealDescription": "Deal description 9",
-			"AmendmentDescription": "AmendmentDescription 9",
-			"WeightMeasure": 2134,
-			"WeightUnit": "g",
-			"Price": 39.99,
-			"CurrencyCode": "EUR",
-			"Quantity": 12,
-			"UoM": "PC",
-			"Width": 42,
-			"Depth": 29,
-			"AmendmentStatus": "Created",
-			"Height": 31,
-			"System": "CMC",
-			"Date": "06/06/2014"
-		},
-		{
-			"AmendmentType": "AmendmentID Type 10",
-			"AmendmentId": "AmendmentID 10",
-			"CustomerName": "Customer 10",
-			"DealId": "Deal ID 10",
-			"DealDescription": "Deal description 10",
-			"AmendmentDescription": "AmendmentDescription 10",
-			"WeightMeasure": 1401,
-			"WeightUnit": "g",
-			"Price": 339,
-			"CurrencyCode": "EUR",
-			"Quantity": 12,
-			"UoM": "PC",
-			"Width": 88,
-			"Depth": 13,
-			"AmendmentStatus": "Released",
-			"Height": 49,
-			"System": "CMC",
-			"Date": "05/05/2014"
-		},
-		{
-			"AmendmentType": "AmendmentID Type 11",
-			"AmendmentId": "AmendmentID 11",
-			"CustomerName": "Customer 11",
-			"DealId": "Deal ID 11",
-			"DealDescription": "Deal description 11",
-			"AmendmentDescription": "AmendmentDescription 11",
-			"WeightMeasure": 1800,
-			"WeightUnit": "g",
-			"Price": 639,
-			"CurrencyCode": "EUR",
-			"Quantity": 16,
-			"UoM": "PC",
-			"Width": 102,
-			"Depth": 13,
-			"AmendmentStatus": "Created",
-			"Height": 54,
-			"System": "CMC",
-			"Date": "04/04/2014"
-		},
-		{
-			"AmendmentType": "AmendmentID Type 12",
-			"AmendmentId": "AmendmentID 12",
-			"CustomerName": "Customer 12",
-			"DealId": "Deal ID 12",
-			"DealDescription": "Deal description 12",
-			"AmendmentDescription": "AmendmentDescription 12",
-			"WeightMeasure": 2100,
-			"WeightUnit": "g",
-			"Price": 1239,
-			"CurrencyCode": "EUR",
-			"Quantity": 5,
-			"UoM": "PC",
-			"Width": 112,
-			"Depth": 13,
-			"AmendmentStatus": "Executed",
-			"Height": 60,
-			"System": "CMC",
-			"Date": "03/03/2014"
-		},
-		{
-			"AmendmentType": "AmendmentID Type 13",
-			"AmendmentId": "AmendmentID 13",
-			"CustomerName": "Customer 13",
-	    	"DealId": "Deal ID 13",
-			"DealDescription": "Deal description 13",
-			"AmendmentDescription": "AmendmentDescription 13",
-			"WeightMeasure": 1190,
-			"WeightUnit": "g",
-			"Price": 939,
-			"CurrencyCode": "EUR",
-			"Quantity": 18,
-			"UoM": "PC",
-			"Width": 64,
-			"Depth": 34,
-			"AmendmentStatus": "Created",
-			"Height": 4,
-			"System": "CMC",
-			"Date": "02/02/2014"
-		},
-		{
-			"AmendmentType": "AmendmentID Type 14",
-			"AmendmentId": "AmendmentID 14",
-			"CustomerName": "Customer 14",
-			"DealId": "Deal ID 14",
-			"DealDescription": "Deal description 14",
-			"AmendmentDescription": "AmendmentDescription 14",
-			"WeightMeasure": 651,
-			"WeightUnit": "g",
-			"Price": 89,
-			"CurrencyCode": "EUR",
-			"Quantity": 20,
-			"UoM": "PC",
-			"Width": 53,
-			"Depth": 24,
-			"AmendmentStatus": "Released",
-			"Height": 6,
-			"System": "CMC",
-			"Date": "01/01/2014"
-		}
-	],
-	"ProductCollectionStats": {
-		"Counts": {
-			"Total": 14,
-			"Weight": {
-				"Ok": 7,
-				"Heavy": 5,
-				"Overweight": 2
-			}
-		},
-		"Groups": {
-			"CustomerName": {
-				"Projector": 1,
-				"Graphics Card": 2,
-				"Accessory": 4,
-				"Printer": 2,
-				"Monitor": 3,
-				"Laptop": 1,
-				"Keyboard": 1
-			},
-			"DealId": {
-				"Titanium": 3,
-				"Technocom": 3,
-				"Red Point Stores": 5,
-				"Very Best Screens": 3
-			}
-		},
-		"Filters": [
-			{
-				"type": "CustomerName",
-				"values": [
-					{
-						"text": "Projector",
-						"data": 1
-					},
-					{
-						"text": "Graphics Card",
-						"data": 2
-					},
-					{
-						"text": "Accessory",
-						"data": 4
-					},
-					{
-						"text": "Printer",
-						"data": 2
-					},
-					{
-						"text": "Monitor",
-						"data": 3
-					},
-					{
-						"text": "Laptop",
-						"data": 1
-					},
-					{
-						"text": "Keyboard",
-						"data": 1
-					}
-				]
-			},
-			{
-				"type": "DealId",
-				"values": [
-					{
-						"text": "Titanium",
-						"data": 3
-					},
-					{
-						"text": "Technocom",
-						"data": 3
-					},
-					{
-						"text": "Red Point Stores",
-						"data": 5
-					},
-					{
-						"text": "Very Best Screens",
-						"data": 3
-					}
-				]
-			}
-		]
-	}
+  "AmendmentsCollection": [
+    {
+      "AmendmentType": "AmendmentID Type 1",
+      "AmendmentId": "AmendmentID 1",
+      "CustomerName": "Customer 1",
+      "DealId": "Deal ID 1",
+      "DealDescription": "Deal description 1",
+      "AmendmentDescription": "AmendmentDescription 1",
+      "AmendmentStatus": "Created",
+      "System": "CMC",
+      "Date": "13/11/2014"
+    },
+    {
+      "AmendmentType": "AmendmentID Type 2",
+      "AmendmentId": "AmendmentID 2",
+      "CustomerName": "Customer 2",
+      "DealId": "Deal ID 2",
+      "DealDescription": "Deal description 2",
+      "AmendmentDescription": "AmendmentDescription 2",
+      "AmendmentStatus": "Executed",
+      "System": "CMC",
+      "Date": "12/11/2014"
+    },
+    {
+      "AmendmentType": "AmendmentID Type 3",
+      "AmendmentId": "AmendmentID 3",
+      "CustomerName": "Customer 3",
+      "DealId": "Deal ID 3",
+      "DealDescription": "Deal description 3",
+      "AmendmentDescription": "AmendmentDescription 3",
+      "AmendmentStatus": "Executed",
+      "System": "CMC",
+      "Date": "12/12/2014"
+    },
+    {
+      "AmendmentType": "AmendmentID Type 4",
+      "AmendmentId": "AmendmentID 4",
+      "CustomerName": "Customer 4",
+      "DealId": "Deal ID 4",
+      "DealDescription": "Deal description 4",
+      "AmendmentDescription": "AmendmentDescription 4",
+      "AmendmentStatus": "Released",
+      "System": "CMC",
+      "Date": "11/11/2014"
+    },
+    {
+      "AmendmentType": "AmendmentID Type 5",
+      "AmendmentId": "AmendmentID 5",
+      "CustomerName": "Customer 5",
+      "DealId": "Deal ID 5",
+      "DealDescription": "Deal description 5",
+      "AmendmentDescription": "AmendmentDescription 5",
+      "AmendmentStatus": "Created",
+      "System": "CMC",
+      "Date": "10/10/2014"
+    },
+    {
+      "AmendmentType": "AmendmentID Type 6",
+      "AmendmentId": "AmendmentID 6",
+      "CustomerName": "Customer 6",
+      "DealId": "Deal ID 6",
+      "DealDescription": "Deal description 6",
+      "AmendmentDescription": "AmendmentDescription 6",
+      "AmendmentStatus": "Released",
+      "System": "CMC",
+      "Date": "09/09/2014"
+    },
+    {
+      "AmendmentType": "AmendmentID Type 7",
+      "AmendmentId": "AmendmentID 7",
+      "CustomerName": "Customer 7",
+      "DealId": "Deal ID 7",
+      "DealDescription": "Deal description 7",
+      "AmendmentDescription": "AmendmentDescription 7",
+      "AmendmentStatus": "Created",
+      "System": "CMC",
+      "Date": "08/08/2014"
+    },
+    {
+      "AmendmentType": "AmendmentID Type 8",
+      "AmendmentId": "AmendmentID 8",
+      "CustomerName": "Customer 8",
+      "DealId": "Deal ID 8",
+      "DealDescription": "Deal description 8",
+      "AmendmentDescription": "AmendmentDescription 8",
+      "AmendmentStatus": "Executed",
+      "System": "CMC",
+      "Date": "07/07/2014"
+    },
+    {
+      "AmendmentType": "AmendmentID Type 9",
+      "AmendmentId": "AmendmentID 9",
+      "CustomerName": "Customer 9",
+      "DealId": "Deal ID 9",
+      "DealDescription": "Deal description 9",
+      "AmendmentDescription": "AmendmentDescription 9",
+      "AmendmentStatus": "Created",
+      "System": "CMC",
+      "Date": "06/06/2014"
+    },
+    {
+      "AmendmentType": "AmendmentID Type 10",
+      "AmendmentId": "AmendmentID 10",
+      "CustomerName": "Customer 10",
+      "DealId": "Deal ID 10",
+      "DealDescription": "Deal description 10",
+      "AmendmentDescription": "AmendmentDescription 10",
+      "AmendmentStatus": "Released",
+      "System": "CMC",
+      "Date": "05/05/2014"
+    },
+    {
+      "AmendmentType": "AmendmentID Type 11",
+      "AmendmentId": "AmendmentID 11",
+      "CustomerName": "Customer 11",
+      "DealId": "Deal ID 11",
+      "DealDescription": "Deal description 11",
+      "AmendmentDescription": "AmendmentDescription 11",
+      "AmendmentStatus": "Created",
+      "System": "CMC",
+      "Date": "04/04/2014"
+    },
+    {
+      "AmendmentType": "AmendmentID Type 12",
+      "AmendmentId": "AmendmentID 12",
+      "CustomerName": "Customer 12",
+      "DealId": "Deal ID 12",
+      "DealDescription": "Deal description 12",
+      "AmendmentDescription": "AmendmentDescription 12",
+      "AmendmentStatus": "Executed",
+      "System": "CMC",
+      "Date": "03/03/2014"
+    },
+    {
+      "AmendmentType": "AmendmentID Type 13",
+      "AmendmentId": "AmendmentID 13",
+      "CustomerName": "Customer 13",
+      "DealId": "Deal ID 13",
+      "DealDescription": "Deal description 13",
+      "AmendmentDescription": "AmendmentDescription 13",
+      "AmendmentStatus": "Created",
+      "System": "CMC",
+      "Date": "02/02/2014"
+    },
+    {
+      "AmendmentType": "AmendmentID Type 14",
+      "AmendmentId": "AmendmentID 14",
+      "CustomerName": "Customer 14",
+      "DealId": "Deal ID 14",
+      "DealDescription": "Deal description 14",
+      "AmendmentDescription": "AmendmentDescription 14",
+      "AmendmentStatus": "Released",
+      "System": "CMC",
+      "Date": "01/01/2014"
+    }
+  ]
 }
