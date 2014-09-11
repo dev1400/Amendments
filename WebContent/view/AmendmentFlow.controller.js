@@ -1,4 +1,4 @@
-sap.ui.controller("sap.ui.demo.myFiori.view.AmendmentDetails", {
+sap.ui.controller("sap.ui.demo.myFiori.view.AmendmentFlow", {
 	/**
 	 * Go back to main page
 	 */
