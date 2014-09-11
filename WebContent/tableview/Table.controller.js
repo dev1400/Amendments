@@ -10,7 +10,7 @@ sap.ui.controller("sap.ui.demo.myFiori.tableview.Table", {
 		},
 		handleWorkFlowPress : function(evt) {
 			var context = evt.getSource().getBindingContext();
-			this.nav.to("AmendmentDetails", context);
+			this.nav.to("AmendmentFlow", context);
 		},
 		handlePopoverPress : function(oEvent) {
 
