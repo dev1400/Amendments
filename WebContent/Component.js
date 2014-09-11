@@ -16,11 +16,8 @@ sap.ui.core.UIComponent.extend("sap.ui.demo.myFiori.Component", {
 		var i18nModel = new sap.ui.model.resource.ResourceModel({
 			bundleUrl : "i18n/messageBundle.properties"
 		});
-		oView.setModel(i18nModel, "i18n");
-		
-		
+		oView.setModel(i18nModel, "i18n");		
 
-		// done
 		return oView;
 	
 	}
