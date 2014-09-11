@@ -2,9 +2,9 @@
 	xmlns:l="sap.ui.layout" xmlns:mvc="sap.ui.core.mvc" xmlns:c="sap.ui.core"
 	xmlns="sap.m">
 	
-		<Table headerText="{i18n>TableHeading1}"
+		<Table  headerText="{i18n>TableHeading1}"
 			items="{
-			path: '/ProductCollection',
+			path: '/AmendmentsCollection',
 			sorter: {
 				path: 'Name'
 			}
@@ -33,7 +33,9 @@
 			</columns>
 			<items>
 				<ColumnListItem type="Navigation" press="handleLineItemPress">
+				
 					<cells>
+					
 						<ObjectIdentifier title="{AmendmentType}" text="{AmendmentId}"
 							class="sapMTableContentMargin" />
 						<ObjectIdentifier title="{DealDescription}" text="{DealId}"

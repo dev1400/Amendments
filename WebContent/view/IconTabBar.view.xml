@@ -1,32 +1,32 @@
 <mvc:View controllerName="sap.ui.demo.myFiori.view.IconTabBar"
 	xmlns:l="sap.ui.layout" xmlns:mvc="sap.ui.core.mvc" xmlns:c="sap.ui.core"
 	xmlns="sap.m">
-	<IconTabBar expanded="false" id="idIconTabBar" select="handleIconTabBarSelect">
+	<Page>
+	<IconTabBar enableScrolling="true" expanded="false" id="idIconTabBar" select="handleIconTabBarSelect">
 		<items>
 			<IconTabFilter icon="sap-icon://begin" iconColor="Positive"
 				design="Horizontal"
 				count=""
-				text="All" key="{i18n>allAmendments}" >		
+				text="{i18n>allAmendments}" key="{i18n>allAmendments}" >		
 			</IconTabFilter>			
 			<IconTabSeparator icon="sap-icon://open-command-field" />
 			<IconTabFilter icon="sap-icon://compare" iconColor="Critical"
 				design="Horizontal"
 				count=""
-				text="Created" key="{i18n>createdAmendments}" />
+				text="{i18n>createdAmendments}" key="{i18n>createdAmendments}" />
 			<IconTabSeparator icon="sap-icon://open-command-field" />
 			<IconTabFilter icon="sap-icon://inventory" iconColor="Negative"
 				design="Horizontal"
 				count=""
-				text="Released" key="{i18n>releasedAmendments}" />
+				text="{i18n>releasedAmendments}" key="{i18n>releasedAmendments}" />
 			<IconTabSeparator icon="sap-icon://open-command-field" />
 			<IconTabFilter icon="sap-icon://begin" iconColor="Positive"
 				design="Horizontal"
 				count=""
-				text="Executed" key="{i18n>executedAmendments}" />
-		</items>
-		
+				text="{i18n>executedAmendments}" key="{i18n>executedAmendments}" />
+		</items>		
 		
 	</IconTabBar>
-	
+	</Page>
 </mvc:View>
 
