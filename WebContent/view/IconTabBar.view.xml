@@ -5,87 +5,28 @@
 		<items>
 			<IconTabFilter icon="sap-icon://begin" iconColor="Positive"
 				design="Horizontal"
-				count="{/ProductCollectionStats/Counts/Weight/Ok} of {/ProductCollectionStats/Counts/Total}"
-				text="All" key="Ok" />
+				count=""
+				text="All" key="{i18n>allAmendments}" >		
+			</IconTabFilter>			
 			<IconTabSeparator icon="sap-icon://open-command-field" />
 			<IconTabFilter icon="sap-icon://compare" iconColor="Critical"
 				design="Horizontal"
-				count="{/ProductCollectionStats/Counts/Weight/Heavy} of {/ProductCollectionStats/Counts/Total}"
-				text="Created" key="Heavy" />
+				count=""
+				text="Created" key="{i18n>createdAmendments}" />
 			<IconTabSeparator icon="sap-icon://open-command-field" />
 			<IconTabFilter icon="sap-icon://inventory" iconColor="Negative"
 				design="Horizontal"
-				count="{/ProductCollectionStats/Counts/Weight/Overweight} of {/ProductCollectionStats/Counts/Total}"
-				text="Released" key="Overweight" />
+				count=""
+				text="Released" key="{i18n>releasedAmendments}" />
 			<IconTabSeparator icon="sap-icon://open-command-field" />
 			<IconTabFilter icon="sap-icon://begin" iconColor="Positive"
 				design="Horizontal"
-				count="{/ProductCollectionStats/Counts/Weight/Ok} of {/ProductCollectionStats/Counts/Total}"
-				text="Executed" key="Ok" />
-		</items>
-	</IconTabBar>
-	<Table headerText="{i18n>TableHeading1}" items="{
-			path: '/ProductCollection',
-			sorter: {
-				path: 'Name'
-			}
-		}" >
-		<headerToolbar>
-			<Toolbar>
-				<Label text="{i18n>Heading}"></Label>
-			</Toolbar>
-		</headerToolbar>
-		<columns>
-			<Column
-				width="12em">
-				<Text text="{i18n>TableHeading1}" />
-			</Column>
-			<Column
-				minScreenWidth="Tablet"
-				demandPopin="true">
-				<Text text="{i18n>TableHeading2}" />
-			</Column>
-			<Column
-				minScreenWidth="Tablet"
-				demandPopin="true"
-				hAlign="Right">
-				<Text text="{i18n>TableHeading3}" />
-			</Column>
-			<Column
-				minScreenWidth="Tablet"
-				demandPopin="true"
-				hAlign="Center">
-				<Text text="{i18n>TableHeading4}" />
-			</Column>
-			<Column
-				hAlign="Right">
-				<Text text="{i18n>TableHeading5}" />
-			</Column>
-		</columns>
-		<items>
-			<ColumnListItem type="Navigation" press="handleLineItemPress">
-				<cells>
-					<ObjectIdentifier
-						title="{AmendmentType}"
-						text="{AmendmentId}"
-						class="sapMTableContentMargin" />
-					<ObjectIdentifier
-						title="{DealDescription}"
-						text="{DealId}"
-						class="sapMTableContentMargin" />
-					<ObjectIdentifier
-						title="{CustomerName}"
-						text="{i18n>Customeron} {Date} {i18n>Customerfrom} {System} "
-						class="sapMTableContentMargin" />
-						
-				    <c:Icon src="sap-icon://popup-window" press="handlePopoverPress"/>
-					
-					<c:Icon src="sap-icon://workflow-tasks" press="handleWorkFlowPress"/>
-				</cells>
-			</ColumnListItem>
+				count=""
+				text="Executed" key="{i18n>executedAmendments}" />
 		</items>
 		
-	</Table>
-
+		
+	</IconTabBar>
+	
 </mvc:View>
 

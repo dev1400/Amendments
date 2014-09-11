@@ -10,30 +10,33 @@ sap.ui.controller("sap.ui.demo.myFiori.view.IconTabBar", {
 		// set explored app's demo model on this sample
 		var oModel = new sap.ui.model.json.JSONModel("model/products.json");
 		this.getView().setModel(oModel);
+		
+		
+		var oComp = sap.ui.getCore().createComponent({
+		      name : 'sap.ui.demo.myFiori.tableview'
+		    });
+		oComp.setModel(this.getView().getModel());
+		this._oTable = oComp.getTable();
+		this.getView().byId("idIconTabBar").insertContent(this._oTable);
 
-		// reuse table sample component
-		/*
-		 * var oComp = sap.ui.getCore().createComponent({ name :
-		 * 'sap.ui.demo.myFiori.tableview' });
-		 * oComp.setModel(this.getView().getModel()); this._oTable =
-		 * oComp.getTable();
-		 * this.getView().byId("idIconTabBar").insertContent(this._oTable);
-		 *  // update table this._oTable.setHeaderText(null);
-		 * this._oTable.setShowSeparators("Inner");
-		 */
 	},
 
 	handleIconTabBarSelect : function(oEvent) {
-		/*
-		 * var oBinding = this._oTable.getBinding("items"), sKey =
-		 * oEvent.getParameter("selectedKey"), oFilter; if (sKey === "Ok") {
-		 * oFilter = new sap.ui.model.Filter("WeightMeasure", "LE", 1000);
-		 * oBinding.filter([oFilter]); } else if (sKey === "Heavy") { oFilter =
-		 * new sap.ui.model.Filter("WeightMeasure", "BT", 1001, 2000);
-		 * oBinding.filter([oFilter]); } else if (sKey === "Overweight") {
-		 * oFilter = new sap.ui.model.Filter("WeightMeasure", "GT", 2000);
-		 * oBinding.filter([oFilter]); } else { oBinding.filter([]); }
-		 */
+		//console.dir(oEvent);
+		console.log(oEvent.getParameter("selectedKey"));
+		  var oBinding = this._oTable.getBinding("items"), sKey = oEvent.getParameter("selectedKey"), oFilter;
+		  console.log(sKey);
+		  if (sKey === "Created") { 
+			  oFilter = new sap.ui.model.Filter("AmendmentStatus", "EQ", "Created");
+			  oBinding.filter([oFilter]); } 
+		  else if (sKey === "Released") { 
+			  oFilter = new sap.ui.model.Filter("AmendmentStatus", "EQ", "Released");
+			  oBinding.filter([oFilter]); } 
+		  else if (sKey === "Executed") { 
+			  oFilter = new sap.ui.model.Filter("AmendmentStatus", "EQ", "Executed");
+			  oBinding.filter([oFilter]); } 
+		  else { oBinding.filter([]); }
+		 
 	},
 	handleLineItemPress : function(evt) {
 		console.log("This will navigate to details page");

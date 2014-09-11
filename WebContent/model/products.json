@@ -15,6 +15,7 @@
 			"UoM": "PC",
 			"Width": 51,
 			"Depth": 42,
+			"AmendmentStatus": "Created",
 			"Height": 18,
 			"System": "CMC",
 			"Date": "13/11/2014"
@@ -34,6 +35,7 @@
 			"UoM": "PC",
 			"Width": 34,
 			"Depth": 14,
+			"AmendmentStatus": "Executed",
 			"Height": 2,
 			"System": "CMC",
 			"Date": "12/11/2014"
@@ -53,6 +55,7 @@
 			"UoM": "PC",
 			"Width": 34,
 			"Depth": 14,
+			"AmendmentStatus": "Executed",
 			"Height": 2,
 			"System": "CMC",
 			"Date": "12/12/2014"
@@ -72,6 +75,7 @@
 			"UoM": "PC",
 			"Width": 18,
 			"Depth": 19,
+			"AmendmentStatus": "Released",
 			"Height": 21,
 			"System": "CMC",
 			"Date": "11/11/2014"
@@ -91,6 +95,7 @@
 			"UoM": "PC",
 			"Width": 11,
 			"Depth": 11,
+			"AmendmentStatus": "Created",
 			"Height": 3,
 			"System": "CMC",
 			"Date": "10/10/2014"
@@ -110,6 +115,7 @@
 			"UoM": "PC",
 			"Width": 53,
 			"Depth": 34,
+			"AmendmentStatus": "Released",
 			"Height": 7,
 			"System": "CMC",
 			"Date": "09/09/2014"
@@ -129,6 +135,7 @@
 			"UoM": "PC",
 			"Width": 6,
 			"Depth": 2,
+			"AmendmentStatus": "Created",
 			"Height": 0.5,
 			"System": "CMC",
 			"Date": "08/08/2014"
@@ -148,6 +155,7 @@
 			"UoM": "PC",
 			"Width": 87,
 			"Depth": 45,
+			"AmendmentStatus": "Executed",
 			"Height": 39,
 			"System": "CMC",
 			"Date": "07/07/2014"
@@ -167,6 +175,7 @@
 			"UoM": "PC",
 			"Width": 42,
 			"Depth": 29,
+			"AmendmentStatus": "Created",
 			"Height": 31,
 			"System": "CMC",
 			"Date": "06/06/2014"
@@ -186,6 +195,7 @@
 			"UoM": "PC",
 			"Width": 88,
 			"Depth": 13,
+			"AmendmentStatus": "Released",
 			"Height": 49,
 			"System": "CMC",
 			"Date": "05/05/2014"
@@ -205,6 +215,7 @@
 			"UoM": "PC",
 			"Width": 102,
 			"Depth": 13,
+			"AmendmentStatus": "Created",
 			"Height": 54,
 			"System": "CMC",
 			"Date": "04/04/2014"
@@ -224,6 +235,7 @@
 			"UoM": "PC",
 			"Width": 112,
 			"Depth": 13,
+			"AmendmentStatus": "Executed",
 			"Height": 60,
 			"System": "CMC",
 			"Date": "03/03/2014"
@@ -243,6 +255,7 @@
 			"UoM": "PC",
 			"Width": 64,
 			"Depth": 34,
+			"AmendmentStatus": "Created",
 			"Height": 4,
 			"System": "CMC",
 			"Date": "02/02/2014"
@@ -262,6 +275,7 @@
 			"UoM": "PC",
 			"Width": 53,
 			"Depth": 24,
+			"AmendmentStatus": "Released",
 			"Height": 6,
 			"System": "CMC",
 			"Date": "01/01/2014"
