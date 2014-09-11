@@ -1,7 +1,7 @@
 <mvc:View controllerName="sap.ui.demo.myFiori.view.IconTabBar"
 	xmlns:l="sap.ui.layout" xmlns:mvc="sap.ui.core.mvc" xmlns:c="sap.ui.core"
 	xmlns="sap.m">
-	<Page>
+	<Page enableScrolling="true">
 	<IconTabBar enableScrolling="true" expanded="false" id="idIconTabBar" select="handleIconTabBarSelect">
 		<items>
 			<IconTabFilter icon="sap-icon://begin" iconColor="Positive"
