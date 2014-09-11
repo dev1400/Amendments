@@ -43,6 +43,6 @@ sap.ui.controller("sap.ui.demo.myFiori.view.IconTabBar", {
 		console.log("This will navigate to details page");
 		
 	},
-	
+
 
 });

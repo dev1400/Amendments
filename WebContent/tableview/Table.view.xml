@@ -16,19 +16,19 @@
 			</headerToolbar>
 			<columns>
 				<Column width="12em">
-					<Text text="{i18n>TableHeading1}" />
+					<Text text="{i18n>AmendmentIDAndType}" />
 				</Column>
 				<Column minScreenWidth="Tablet" demandPopin="true">
-					<Text text="{i18n>TableHeading2}" />
+					<Text text="{i18n>DealIDAndDescription}" />
 				</Column>
 				<Column minScreenWidth="Tablet" demandPopin="true" hAlign="Right">
-					<Text text="{i18n>TableHeading3}" />
+					<Text text="{i18n>CustomerDetails}" />
 				</Column>
 				<Column minScreenWidth="Tablet" demandPopin="true" hAlign="Center">
-					<Text text="{i18n>TableHeading4}" />
+					<Text text="{i18n>AmendmentDescription}" />
 				</Column>
 				<Column hAlign="Right">
-					<Text text="{i18n>TableHeading5}" />
+					<Text text="{i18n>AmendmentStatus}" />
 				</Column>
 			</columns>
 			<items>

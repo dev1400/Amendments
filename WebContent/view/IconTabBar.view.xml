@@ -7,23 +7,23 @@
 			<IconTabFilter icon="sap-icon://begin" iconColor="Positive"
 				design="Horizontal"
 				count=""
-				text="{i18n>allAmendments}" key="{i18n>allAmendments}" >		
+				text="{i18n>AllAmendments}" key="{i18n>AllAmendments}" >		
 			</IconTabFilter>			
 			<IconTabSeparator icon="sap-icon://open-command-field" />
 			<IconTabFilter icon="sap-icon://compare" iconColor="Critical"
 				design="Horizontal"
 				count=""
-				text="{i18n>createdAmendments}" key="{i18n>createdAmendments}" />
+				text="{i18n>CreatedAmendments}" key="{i18n>CreatedAmendments}" />
 			<IconTabSeparator icon="sap-icon://open-command-field" />
 			<IconTabFilter icon="sap-icon://inventory" iconColor="Negative"
 				design="Horizontal"
 				count=""
-				text="{i18n>releasedAmendments}" key="{i18n>releasedAmendments}" />
+				text="{i18n>ReleasedAmendments}" key="{i18n>ReleasedAmendments}" />
 			<IconTabSeparator icon="sap-icon://open-command-field" />
 			<IconTabFilter icon="sap-icon://begin" iconColor="Positive"
 				design="Horizontal"
 				count=""
-				text="{i18n>executedAmendments}" key="{i18n>executedAmendments}" />
+				text="{i18n>ExecutedAmendments}" key="{i18n>ExecutedAmendments}" />
 		</items>		
 		
 	</IconTabBar>
