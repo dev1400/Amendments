@@ -9,8 +9,7 @@ sap.ui.controller("sap.ui.demo.myFiori.view.IconTabBar", {
 
 		// set explored app's demo model on this sample
 		var oModel = new sap.ui.model.json.JSONModel("model/products.json");
-		this.getView().setModel(oModel);
-		
+		this.getView().setModel(oModel);		
 		
 		var oComp = sap.ui.getCore().createComponent({
 		      name : 'sap.ui.demo.myFiori.tableview'
@@ -24,8 +23,7 @@ sap.ui.controller("sap.ui.demo.myFiori.view.IconTabBar", {
 	handleIconTabBarSelect : function(oEvent) {
 		//console.dir(oEvent);
 	
-		  var oBinding = this._oTable.getBinding("items"), sKey = oEvent.getParameter("selectedKey"), oFilter;
-		 
+		  var oBinding = this._oTable.getBinding("items"), sKey = oEvent.getParameter("selectedKey"), oFilter;		 
 		  
 		  if (sKey === "Created") { 
 			  oFilter = new sap.ui.model.Filter("AmendmentStatus", "EQ", "Created");
@@ -42,7 +40,6 @@ sap.ui.controller("sap.ui.demo.myFiori.view.IconTabBar", {
 	handleLineItemPress : function(evt) {
 		console.log("This will navigate to details page");
 		
-	},
-
+	}
 
 });
