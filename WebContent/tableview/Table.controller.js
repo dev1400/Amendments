@@ -26,7 +26,7 @@ sap.ui.controller("sap.ui.demo.myFiori.tableview.Table", {
 			// create popover
 			// if (!this._oPopover) {
 			this._oPopover = sap.ui.xmlfragment(
-					"sap.ui.demo.myFiori.view.Popover", this);
+					"sap.ui.demo.myFiori.view.AmendmentDescription", this);
 			this.getView().addDependent(this._oPopover);
 			this._oPopover.bindElement("/AmendmentsCollection/" + lastChar);
 			// }
