@@ -1,4 +1,4 @@
-sap.ui.controller("dia.cmc.contractsinamendment.view.IconTabBar", {
+sap.ui.controller("dia.cmc.contractsinamendment.view.Master", {
 	onInit : function() {
 
 		// set i18n model

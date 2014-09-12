@@ -1,6 +1,6 @@
 
 
-sap.ui.controller("dia.cmc.contractsinamendment.tableview.Table", {
+sap.ui.controller("dia.cmc.contractsinamendment.tableview.AmendmentDetail", {
 
 	onInit: function () {
 		// using explored app's demo model on this sample

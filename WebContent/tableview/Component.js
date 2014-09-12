@@ -15,8 +15,8 @@ sap.ui.core.UIComponent.extend("dia.cmc.contractsinamendment.tableview.Component
 		config : {
 			sample : {
 				files : [
-					"Table.view.xml",
-					"Table.controller.js",
+					"AmendmentDetail.view.xml",
+					"AmendmentDetail.controller.js",
 					
 				]
 			}
@@ -29,7 +29,7 @@ sap.ui.core.UIComponent.extend("dia.cmc.contractsinamendment.tableview.Component
 });
 
 dia.cmc.contractsinamendment.tableview.Component.prototype.createContent = function () {
-	this._rootView = sap.ui.xmlview({ viewName : "dia.cmc.contractsinamendment.tableview.Table" });
+	this._rootView = sap.ui.xmlview({ viewName : "dia.cmc.contractsinamendment.tableview.AmendmentDetail" });
 	// set i18n model
 	var i18nModel = new sap.ui.model.resource.ResourceModel({
 		bundleUrl : "i18n/messageBundle.properties"

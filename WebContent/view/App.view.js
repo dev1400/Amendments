@@ -13,7 +13,7 @@ sap.ui.jsview("dia.cmc.contractsinamendment.view.App", {
 		this.app = new sap.m.App();
 		
 		// load the master page
-		var master = sap.ui.xmlview("Master", "dia.cmc.contractsinamendment.view.IconTabBar");
+		var master = sap.ui.xmlview("Master", "dia.cmc.contractsinamendment.view.Master");
 		master.getController().nav = this.getController();
 		this.app.addPage(master, true);
 		
