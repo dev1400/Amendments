@@ -9,6 +9,7 @@ sap.ui.controller("dia.cmc.contractsinamendment.tableview.AmendmentDetail", {
 		
 		},
 		handleWorkFlowPress : function(evt) {
+			
 			var context = evt.getSource().getBindingContext();
 			this.nav.to("AmendmentFlow", context);
 		},
@@ -18,8 +19,6 @@ sap.ui.controller("dia.cmc.contractsinamendment.tableview.AmendmentDetail", {
 			var lastChar = local.id;
 			lastChar = lastChar.substr(lastChar.length - 1);
 			
-			console.log(lastChar);
-
 			// create popover
 			// if (!this._oPopover) {
 			this._oPopover = sap.ui.xmlfragment(
