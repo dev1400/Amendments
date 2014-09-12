@@ -1,6 +1,6 @@
-jQuery.sap.declare("sap.ui.demo.myFiori.tableview.Component");
+jQuery.sap.declare("dia.cmc.contractsinamendment.tableview.Component");
 
-sap.ui.core.UIComponent.extend("sap.ui.demo.myFiori.tableview.Component", {
+sap.ui.core.UIComponent.extend("dia.cmc.contractsinamendment.tableview.Component", {
 
 	metadata : {
 		publicMethods : [
@@ -28,8 +28,8 @@ sap.ui.core.UIComponent.extend("sap.ui.demo.myFiori.tableview.Component", {
 	}
 });
 
-sap.ui.demo.myFiori.tableview.Component.prototype.createContent = function () {
-	this._rootView = sap.ui.xmlview({ viewName : "sap.ui.demo.myFiori.tableview.Table" });
+dia.cmc.contractsinamendment.tableview.Component.prototype.createContent = function () {
+	this._rootView = sap.ui.xmlview({ viewName : "dia.cmc.contractsinamendment.tableview.Table" });
 	// set i18n model
 	var i18nModel = new sap.ui.model.resource.ResourceModel({
 		bundleUrl : "i18n/messageBundle.properties"

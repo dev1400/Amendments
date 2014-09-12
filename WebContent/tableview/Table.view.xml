@@ -1,4 +1,4 @@
-<mvc:View controllerName="sap.ui.demo.myFiori.tableview.Table"
+<mvc:View controllerName="dia.cmc.contractsinamendment.tableview.Table"
 	xmlns:l="sap.ui.layout" xmlns:mvc="sap.ui.core.mvc" xmlns:c="sap.ui.core"
 	xmlns="sap.m">
 	

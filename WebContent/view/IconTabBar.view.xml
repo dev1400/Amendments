@@ -1,4 +1,4 @@
-<mvc:View controllerName="sap.ui.demo.myFiori.view.IconTabBar"
+<mvc:View controllerName="dia.cmc.contractsinamendment.view.IconTabBar"
 	xmlns:l="sap.ui.layout" xmlns:mvc="sap.ui.core.mvc" xmlns:c="sap.ui.core"
 	xmlns="sap.m">
 	<Page enableScrolling="true">

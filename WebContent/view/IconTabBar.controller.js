@@ -1,4 +1,4 @@
-sap.ui.controller("sap.ui.demo.myFiori.view.IconTabBar", {
+sap.ui.controller("dia.cmc.contractsinamendment.view.IconTabBar", {
 	onInit : function() {
 
 		// set i18n model
@@ -12,7 +12,7 @@ sap.ui.controller("sap.ui.demo.myFiori.view.IconTabBar", {
 		this.getView().setModel(oModel);		
 		
 		var oComp = sap.ui.getCore().createComponent({
-		      name : 'sap.ui.demo.myFiori.tableview'
+		      name : 'dia.cmc.contractsinamendment.tableview'
 		    });
 		oComp.setModel(this.getView().getModel());
 		this._oTable = oComp.getTable();

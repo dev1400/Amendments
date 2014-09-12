@@ -1,6 +1,6 @@
 
 
-sap.ui.controller("sap.ui.demo.myFiori.tableview.Table", {
+sap.ui.controller("dia.cmc.contractsinamendment.tableview.Table", {
 
 	onInit: function () {
 		// using explored app's demo model on this sample
@@ -23,7 +23,7 @@ sap.ui.controller("sap.ui.demo.myFiori.tableview.Table", {
 			// create popover
 			// if (!this._oPopover) {
 			this._oPopover = sap.ui.xmlfragment(
-					"sap.ui.demo.myFiori.view.AmendmentDescription", this);
+					"dia.cmc.contractsinamendment.view.AmendmentDescription", this);
 			this.getView().addDependent(this._oPopover);
 			this._oPopover.bindElement("/AmendmentsCollection/" + lastChar);
 			// }

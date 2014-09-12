@@ -1,4 +1,4 @@
-sap.ui.controller("sap.ui.demo.myFiori.view.App", {
+sap.ui.controller("dia.cmc.contractsinamendment.view.App", {
 	
 	/**
 	 * Navigates to another page
@@ -14,7 +14,7 @@ sap.ui.controller("sap.ui.demo.myFiori.view.App", {
 		if (app.getPage(pageId, master) === null) {
 			var page = sap.ui.view({
 				id : pageId,
-				viewName : "sap.ui.demo.myFiori.view." + pageId,
+				viewName : "dia.cmc.contractsinamendment.view." + pageId,
 				type : "XML"
 			});
 			page.getController().nav = this;

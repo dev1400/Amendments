@@ -1,7 +1,7 @@
-sap.ui.jsview("sap.ui.demo.myFiori.view.App", {
+sap.ui.jsview("dia.cmc.contractsinamendment.view.App", {
 
 	getControllerName: function () {
-		return "sap.ui.demo.myFiori.view.App";
+		return "dia.cmc.contractsinamendment.view.App";
 	},
 	
 	createContent: function (oController) {
@@ -13,12 +13,12 @@ sap.ui.jsview("sap.ui.demo.myFiori.view.App", {
 		this.app = new sap.m.App();
 		
 		// load the master page
-		var master = sap.ui.xmlview("Master", "sap.ui.demo.myFiori.view.IconTabBar");
+		var master = sap.ui.xmlview("Master", "dia.cmc.contractsinamendment.view.IconTabBar");
 		master.getController().nav = this.getController();
 		this.app.addPage(master, true);
 		
 		// load the detail page
-		var detail = sap.ui.xmlview("AmendmentFlow", "sap.ui.demo.myFiori.view.AmendmentFlow");
+		var detail = sap.ui.xmlview("AmendmentFlow", "dia.cmc.contractsinamendment.view.AmendmentFlow");
 		detail.getController().nav = this.getController();
 		this.app.addPage(detail, false);
 		

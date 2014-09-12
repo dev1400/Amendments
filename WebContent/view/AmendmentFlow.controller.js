@@ -1,4 +1,4 @@
-sap.ui.controller("sap.ui.demo.myFiori.view.AmendmentFlow", {
+sap.ui.controller("dia.cmc.contractsinamendment.view.AmendmentFlow", {
 	/**
 	 * Go back to main page
 	 */
