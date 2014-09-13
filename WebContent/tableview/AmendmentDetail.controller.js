@@ -11,7 +11,8 @@ sap.ui.controller("dia.cmc.contractsinamendment.tableview.AmendmentDetail", {
 		handleWorkFlowPress : function(evt) {
 			
 			var context = evt.getSource().getBindingContext();
-			this.nav.to("AmendmentFlow", context);
+			sap.ui.controller("dia.cmc.contractsinamendment.view.App").to("AmendmentFlow", context);
+			//this.nav.to("AmendmentFlow", context);
 		},
 		handlePopoverPress : function(oEvent) {
 

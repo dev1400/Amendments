@@ -17,10 +17,10 @@ sap.ui.jsview("dia.cmc.contractsinamendment.view.App", {
 		master.getController().nav = this.getController();
 		this.app.addPage(master, true);
 		
-		// load the detail page
-		var detail = sap.ui.xmlview("AmendmentFlow", "dia.cmc.contractsinamendment.view.AmendmentFlow");
-		detail.getController().nav = this.getController();
-		this.app.addPage(detail, false);
+		// load the amendment process flow page
+		var amendmentProcessFlow = sap.ui.xmlview("AmendmentFlow", "dia.cmc.contractsinamendment.view.AmendmentFlow");
+		amendmentProcessFlow.getController().nav = this.getController();
+		this.app.addPage(amendmentProcessFlow, false);
 		
 		// done
 		return this.app;
