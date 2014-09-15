@@ -60,7 +60,7 @@ sap.ui.controller("dia.cmc.contractsinamendment.view.App", {
         if (data && data.id) {
             // lazy load view
             if (sap.ui.getCore().getElementById("theApp").getPage(data.id) === null) {
-               jQuery.sap.log.info("now loading page '" + data.id + "'");
+               
                sap.ui.getCore().getElementById("theApp").addPage(sap.ui.xmlview(data.id, "dia.cmc.contractsinamendment.view." + data.id));
             }
             // Navigate to given page (include bindingContext)
