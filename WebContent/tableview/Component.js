@@ -16,8 +16,7 @@ sap.ui.core.UIComponent.extend("dia.cmc.contractsinamendment.tableview.Component
 			sample : {
 				files : [
 					"AmendmentDetail.view.xml",
-					"AmendmentDetail.controller.js",
-					
+					"AmendmentDetail.controller.js",					
 				]
 			}
 		}
