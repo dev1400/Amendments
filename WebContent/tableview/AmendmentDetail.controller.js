@@ -1,19 +1,33 @@
-
-
 sap.ui.controller("dia.cmc.contractsinamendment.tableview.AmendmentDetail", {
 
 	onInit: function () {
 		// using explored app's demo model on this sample
 		var oModel = new sap.ui.model.json.JSONModel("model/products.json");
-		this.getView().setModel(oModel);		
+		this.getView().setModel(oModel);	
+		var bus = sap.ui.getCore().getEventBus();
+       bus.subscribe("nav", "to", sap.ui.controller("dia.cmc.contractsinamendment.view.App").navToHandler, this);
+       bus.subscribe("nav", "back", sap.ui.controller("dia.cmc.contractsinamendment.view.App").navBackHandler, this);
 		
 		},
+		
+	    navBackHandler : function() {
+	        this.app.back();
+	    },
 		handleWorkFlowPress : function(evt) {
-			
-			var context = evt.getSource().getBindingContext();
-			sap.ui.controller("dia.cmc.contractsinamendment.view.App").to("AmendmentFlow", context);
+			console.log("handleWorkFlowPress");
+			var bindingContext = evt.oSource.getBindingContext();
+			var bus = sap.ui.getCore().getEventBus();
+	        bus.publish("nav", "to", { 
+	            id : "AmendmentFlow",
+	            data : {
+	                context : bindingContext
+	            }
+	       });				
+			//sap.ui.controller("dia.cmc.contractsinamendment.view.App").to("AmendmentFlow", context);
 			//this.nav.to("AmendmentFlow", context);
-		},
+	    },
+
+	    
 		handlePopoverPress : function(oEvent) {
 
 			var local = oEvent.getParameters();
