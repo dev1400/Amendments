@@ -47,7 +47,7 @@ sap.ui.controller("dia.cmc.contractsinamendment.view.App", {
 	     console.log(this.app);*/
 	},
 	navToHandler : function(channelId, eventId, data) {
-		console.log("navToHandler");
+		/*console.log("navToHandler");*/
 		// remember the App Control
 		/*var view = this.getView();
 		console.log(view);
