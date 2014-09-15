@@ -14,7 +14,7 @@ sap.ui.controller("dia.cmc.contractsinamendment.tableview.AmendmentDetail", {
 	        this.app.back();
 	    },
 		handleWorkFlowPress : function(evt) {
-			console.log("handleWorkFlowPress");
+			/*console.log("handleWorkFlowPress");*/
 			var bindingContext = evt.oSource.getBindingContext();
 			var bus = sap.ui.getCore().getEventBus();
 	        bus.publish("nav", "to", { 
