@@ -30,6 +30,9 @@
 				<Column hAlign="Right">
 					<Text text="{i18n>AmendmentStatus}" />
 				</Column>
+				<Column hAlign="Right">
+					<Text text="{i18n>CancelAmendment}" />
+				</Column>
 			</columns>
 			<items>
 				<ColumnListItem type="Navigation" press="handleLineItemPress">
@@ -47,6 +50,8 @@
 						<c:Icon src="sap-icon://popup-window" press="handlePopoverPress" />
 
 						<c:Icon src="sap-icon://workflow-tasks" press="handleWorkFlowPress" />
+						
+						<Button type="Reject" text="X" press="" />
 					</cells>
 				</ColumnListItem>
 			</items>
