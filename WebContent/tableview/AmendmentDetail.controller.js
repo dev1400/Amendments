@@ -10,13 +10,18 @@ sap.ui.controller("dia.cmc.contractsinamendment.tableview.AmendmentDetail", {
        bus.subscribe("nav", "back", sap.ui.controller("dia.cmc.contractsinamendment.view.App").navBackHandler, this);
 		
 	},
-		
+	
+	/**
+	 * Navigate back to main page.
+	 */
 	navBackHandler : function() {
 	   this.app.back();
     },
 	
-    handleWorkFlowPress : function(evt) {
-	   /*console.log("handleWorkFlowPress");*/
+    /**
+     * Navigate to Amendment Flow.
+     */
+    handleWorkFlowPress : function(evt) {	
 	   var bindingContext = evt.oSource.getBindingContext();
 	   var bus = sap.ui.getCore().getEventBus();
 	   bus.publish("nav", "to", { 
@@ -26,6 +31,9 @@ sap.ui.controller("dia.cmc.contractsinamendment.tableview.AmendmentDetail", {
 	       }
 	    });				
 	},
+	/**
+	 * Display pop-up.
+	 */
 	handlePopoverPress : function(oEvent) {
        var local = oEvent.getParameters();
 	   var lastChar = local.id;
