@@ -4,7 +4,6 @@
   <Popover
     title="{AmendmentId}"
     class="sapUiPopupWithPadding">
-    <Text text="{AmendmentDescription}" />
-   
+    <Text text="{AmendmentDescription}" />   
   </Popover>
 </core:FragmentDefinition>

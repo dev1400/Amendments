@@ -38,25 +38,11 @@ sap.ui.controller("dia.cmc.contractsinamendment.view.App", {
 	back : function (pageId) {
 		this.getView().app.backToPage(pageId);
 	},
-	 onInit : function() {
-	        
-		 var view = this.getView();
-		/* console.log(view);
-		 console.log( sap.ui.getCore().getElementById("theApp"));
-	     this.app = sap.ui.getCore().getElementById("theApp");  
-	     console.log(this.app);*/
+	 onInit : function() {	        
+		 var view = this.getView();		
 	},
 	navToHandler : function(channelId, eventId, data) {
-		/*console.log("navToHandler");*/
-		// remember the App Control
-		/*var view = this.getView();
-		console.log(view);
-        this.app = view.byId("theApp");*/
-
-       /* subscribe to event bus
-        var bus = sap.ui.getCore().getEventBus();
-        bus.subscribe("nav", "to", this.navToHandler, this);
-        bus.subscribe("nav", "back", this.navBackHandler, this);*/
+		
         if (data && data.id) {
             // lazy load view
             if (sap.ui.getCore().getElementById("theApp").getPage(data.id) === null) {
