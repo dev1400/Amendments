@@ -10,7 +10,7 @@ sap.ui.jsview("dia.cmc.contractsinamendment.view.App", {
 		this.setDisplayBlock(true);
 		
 		// create app
-		this.app = new sap.m.App();
+		this.app = new sap.m.App("theApp");
 		
 		// load the master page
 		var master = sap.ui.xmlview("Master", "dia.cmc.contractsinamendment.view.Master");
