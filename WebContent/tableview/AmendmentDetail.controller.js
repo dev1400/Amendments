@@ -42,7 +42,7 @@ sap.ui.controller("dia.cmc.contractsinamendment.tableview.AmendmentDetail", {
 	    // create popover
 		// if (!this._oPopover) {
 		this._oPopover = sap.ui.xmlfragment(
-					"dia.cmc.contractsinamendment.view.AmendmentDescription", this);
+					"dia.cmc.contractsinamendment.fragments.AmendmentDescription", this);
 		this.getView().addDependent(this._oPopover);
 		this._oPopover.bindElement("/AmendmentsCollection/" + lastChar);
 		// }
